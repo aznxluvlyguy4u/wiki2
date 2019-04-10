@@ -1,5 +1,7 @@
 # Project /Repo title
 
+[Glossary with definitions](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Glossary)
+
 ## Prerequisites
 Meaning: What is mandatory, in tooling sense, to get the application running
 
