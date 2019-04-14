@@ -131,10 +131,10 @@ TO BE DOCUMENTED
 ## Dependencies
 
 - [(TEMPLATE) DEPENDENCY NAME - DESCRIPTION OF WHAT THE DEPENDENCY IS (max 2 / 4 words)](https://link-to-dependency-mostpreferably-github.com/library)
-- [Spring Boot](https://spring.io/projects/spring-boot)
-- [Spring AWS Lambda Container](https://github.com/awslabs/aws-serverless-java-container)
+- [Spring Boot - MVC framework](https://spring.io/projects/spring-boot)
+- [Spring AWS Lambda - AWS Container](https://github.com/awslabs/aws-serverless-java-container)
 - [Hibernate - ORM](http://hibernate.org/orm/)
 - [OKHttp - HTTP client](https://square.github.io/okhttp/)
 - [Roboslack - Slack logger](https://github.com/palantir/roboslack)
 - [Sentry - Error monitoring](https://docs.sentry.io/clients/java/)
-- [SonarQube Gradle plugin](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Gradle)
+- [SonarQube - Gradle plugin](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Gradle)
