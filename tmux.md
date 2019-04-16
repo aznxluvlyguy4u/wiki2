@@ -27,13 +27,13 @@ no server running on /private/tmp/tmux-501/default
 ### Create a tmux session (if none exists)
 
 ```shell
-$ tmux new -s *node*
+$ tmux new -s node
 ```
 
 ### Attach to tmux session
 
 ```shell
-$ tmux a -t *node*
+$ tmux a -t node
 ```
 
 ### Detach from current tmux session
