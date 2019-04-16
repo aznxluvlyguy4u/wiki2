@@ -173,6 +173,5 @@ TO BE DOCUMENTED
 - [Next.js - Serverside renderer](https://nextjs.org/)
 - [Path-match - API endpoint util](https://github.com/pillarjs/path-match)
 - [React.js - UI library](https://reactjs.org/)
-- [React-dom- HTML DOM util](https://reactjs.org/docs/react-dom.html)
-
+- [React-dom - HTML DOM util](https://reactjs.org/docs/react-dom.html)
 - [TEMPLATE - NAME - SHORT DESCRIPTION OF DEPENDENCY!!!](https://github.com/defunctzombie/node-url)
