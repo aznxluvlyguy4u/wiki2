@@ -14,10 +14,8 @@
 |------------------------------------------------------------------------------|
 | 0. [Setup & Configuration](#markdown-header-setup-&-configuration)           |
 | 1. [Compile, build & run locally](#markdown-header-compile,-build-&-run)     |
-| 2. [Local debugging](#markdown-header-debugging)                             |
-| 3. [Deploying to cloud](#markdown-header-deploy)                             |
+| 3. [Remote deploying](#markdown-header-remote-deploying)                     |
 | 4. [Architecture](#markdown-header-architecture)                             |
-| 5. [REST API documentation](#markdown-header-REST-API-documentation)         |
 | 6. [Resources](#markdown-header-resources)                                   |
 | 7. [Glossary with definitions](Glossary)
 
