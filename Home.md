@@ -118,7 +118,8 @@ Which will starts a node server on [http://localhost:3000](http://localhost:3000
 
 We currently use an EC2 instance to host the frontend app.
 
-You will need SSH access to the server to which you want to deploy. This is managed via Opworks, see [here](https://stackoverflow.com/c/jongens-van-techniek/questions/98) for instructions, and ask Steve to setup an IAM user for you, if not already done so, that _allows SSH access to the concerning EC2 instance via IAM user configuration._
+You will need SSH access to the server to which you want to deploy. This is managed via Opworks, see [here](https://stackoverflow.com/c/jongens-van-techniek/questions/98) for instructions, 
+and ask Steve to setup an IAM user for you, if not already done so, that _allows SSH access to the concerning EC2 instance via IAM user configuration._
 
 If you already have an IAM user, with the mandatory configurations as described [here](https://stackoverflow.com/c/jongens-van-techniek/questions/98), you can continue.
 
