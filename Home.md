@@ -140,6 +140,23 @@ We use [tmux](https://en.wikipedia.org/wiki/Tmux) to support detachable SSH sess
 
 - Follow the [tmux](tmux) instructions to create or attach to tmux session
 
+
+### Install packages
+
+First navigate to _/var/www/op-dev.jongensvantechniek.nl
+
+```shell
+cd /var/www/op-dev.jongensvantechniek.nl
+```
+
+Then install the packages
+
+```shell
+$ sudo npm install
+```
+
+Notice the `sudo` command, this is needed otherwise you will get permission errors.
+
 #### Create a production build 
 
 ```shell
