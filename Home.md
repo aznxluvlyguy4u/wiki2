@@ -141,15 +141,23 @@ We use [tmux](https://en.wikipedia.org/wiki/Tmux) to support detachable SSH sess
 - Follow the [tmux](tmux) instructions to create or attach to tmux session
 
 
-### Install packages
+### Navigate to the web app
 
-First navigate to _/var/www/op-dev.jongensvantechniek.nl
+First navigate to where the app is installed:
 
 ```shell
 cd /var/www/op-dev.jongensvantechniek.nl
 ```
 
-Then install the packages
+### Get latest changes
+
+Then pull the latest changes (determine if you are on the correct branch):
+
+```shell
+$ git pull
+```
+
+#### Install packages
 
 ```shell
 $ sudo npm install
@@ -171,7 +179,7 @@ $ npm run start
 
 Which will starts a node server on [http://localhost:3000](http://localhost:3000)
 
-Don't forget to [detach](https://bitbucket.org/jvt/ocean-premium-frontend/wiki/tmux#markdown-header-detach-from-current-tmux-session) from the tmux session.
+**Don't forget** to [detach](https://bitbucket.org/jvt/ocean-premium-frontend/wiki/tmux#markdown-header-detach-from-current-tmux-session) from the tmux session.
 
 ## Additional configurations / relevant information
 
