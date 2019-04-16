@@ -12,7 +12,7 @@ $ tmux ls
 
 #### Output
 
-In case of existing tmux sessions:
+In case of existing tmux sessions (for example called: node):
 
 ```shell
 node: 1 windows (created Tue Apr 16 16:22:53 2019) [204x55]
