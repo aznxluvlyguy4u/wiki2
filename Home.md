@@ -118,13 +118,13 @@ TO BE DOCUMENTED
 
 ## Dependencies
 
-- [axios](https://spring.io/projects/spring-boot)
-- [express](https://spring.io/projects/spring-boot)
-- [next](https://spring.io/projects/spring-boot)
-- [path-match](https://spring.io/projects/spring-boot)
-- [react](https://spring.io/projects/spring-boot)
-- [react-dom](https://spring.io/projects/spring-boot)
-- [url](https://spring.io/projects/spring-boot)
+- [axios](https://github.com/axios/axios)
+- [express](https://github.com/expressjs/express)
+- [next](https://nextjs.org/)
+- [path-match](https://github.com/pillarjs/path-match)
+- [react](https://reactjs.org/)
+- [react-dom](https://reactjs.org/docs/react-dom.html)
+- [url](https://github.com/defunctzombie/node-url)
 
 ## Resources
 
