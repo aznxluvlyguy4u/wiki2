@@ -17,7 +17,7 @@
 | 3. [Remote deploying](#markdown-header-remote-deploying)                     |
 | 4. [Architecture](#markdown-header-architecture)                             |
 | 6. [Resources](#markdown-header-resources)                                   |
-| 7. [Glossary with definitions](Glossary)
+| 7. [Glossary with definitions](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Glossary)
 
 ## Resources
 
