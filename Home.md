@@ -29,24 +29,16 @@ This sections describes on what the prerequisites are on getting started to get 
 
 ### Prerequisites
 
-#### OpenJDK 8
-- [MacOS - adoptOpenJDK](https://adoptopenjdk.net)
-- [Windows - OpenJDK](http://jdk.java.net/java-se-ri/8)
-- [Linux - OpenJDK](http://openjdk.java.net/install/)
-
-More info on available runtimes on AWS lambda, see [here](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html)
+#### Node ^10.15
+- [MacOS - Node](https://nodejs.org/en/download/)
+- [Windows - Node](https://nodejs.org/en/download/)
+- [Linux - Node](https://nodejs.org/en/download/)
 
 #### IDE
 
-##### IntelliJ - IDEA - Ultimate
+##### VSCode
 
-It is _strongly_ recommended (even mandatory) to use [Intellij IDEA - Ultimate](https://www.jetbrains.com/idea/)
-
-- This codebase is written in [Kotlin](https://kotlinlang.org) and therefore the Kotlin language is tightly integrated into [Intellij IDEA - Ultimate](https://www.jetbrains.com/idea/)
-
-- Kotlin is developed by the same people that produced [Intellij IDEA - Ultimate](https://www.jetbrains.com/idea/) ([JetBrains](https://www.jetbrains.com))
-
-- Gradle: support is straight out of the box in [Intellij IDEA - Ultimate](https://www.jetbrains.com/idea/)
+It is recommended to use [VSCode](https://code.visualstudio.com/)
 
 ##### SonarLint - IntelliJ plugin
 
@@ -78,15 +70,24 @@ $ npm install serverless -g
 
 ## Setup & configurations
 
-To be documented 
+```shell
+$ git clone
+```
+```shell
+$ npm install
+```
 
 ### Environment variables
 
-To be documented 
+To be documented
 
 #### Local running
 
-To be documented 
+```shell
+$ npm run dev
+```
+
+Starts a server on ```localhost:3000```
 
 #### Remote deploying
 
@@ -95,10 +96,13 @@ Make sure prerequisites are met.
 From any _function_ module run the Gradle _deploy_ command:
 
 ```shell
-$ npm footer
+$ npm run build
+```
+```shell
+$ npm run start
 ```
 
-To be documented 
+Starts a server on ```:3000```
 
 ## Additional configurations / relevant information
 
@@ -114,7 +118,13 @@ TO BE DOCUMENTED
 
 ## Dependencies
 
-TO BE DOCUMENTED
+- [axios](https://spring.io/projects/spring-boot)
+- [express](https://spring.io/projects/spring-boot)
+- [next](https://spring.io/projects/spring-boot)
+- [path-match](https://spring.io/projects/spring-boot)
+- [react](https://spring.io/projects/spring-boot)
+- [react-dom](https://spring.io/projects/spring-boot)
+- [url](https://spring.io/projects/spring-boot)
 
 ## Resources
 
@@ -129,14 +139,3 @@ TO BE DOCUMENTED
 - [Wireframes](*Ocean Premium - Wireframes - 12042019_1.0*: https://shopix99-my.sharepoint.com/:b:/g/personal/peter_jongensvantechniek_nl/EeCuNhlCXjdFuX30Rnf0nOMBaau8J35EvcpgcFrefaU3QA?e=pNcUcJ)
 
 - [Initial design](https://www.figma.com/proto/0KBc0Pattj9Cc9ov7akc3VFD/Ocean-Premium?node-id=178%3A1962&viewport=468%2C522%2C0.778865&scaling=min-zoom&redirected=1)
-
-## Dependencies
-
-- [(TEMPLATE) DEPENDENCY NAME - DESCRIPTION OF WHAT THE DEPENDENCY IS (max 2 / 4 words)](https://link-to-dependency-mostpreferably-github.com/library)
-- [Spring Boot - MVC framework](https://spring.io/projects/spring-boot)
-- [Spring AWS Lambda - AWS Container](https://github.com/awslabs/aws-serverless-java-container)
-- [Hibernate - ORM](http://hibernate.org/orm/)
-- [OKHttp - HTTP client](https://square.github.io/okhttp/)
-- [Roboslack - Slack logger](https://github.com/palantir/roboslack)
-- [Sentry - Error monitoring](https://docs.sentry.io/clients/java/)
-- [SonarQube - Gradle plugin](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Gradle)
