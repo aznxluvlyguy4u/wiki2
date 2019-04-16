@@ -152,7 +152,7 @@ $ npm run start
 
 Which will starts a node server on [http://localhost:3000](http://localhost:3000)
 
-Don't for get to detach from the tmux session.
+Don't for get to [detach](https://bitbucket.org/jvt/ocean-premium-frontend/wiki/tmux#markdown-header-detach-from-current-tmux-session) from the tmux session.
 
 ## Additional configurations / relevant information
 
