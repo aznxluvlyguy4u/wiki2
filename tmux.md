@@ -15,7 +15,7 @@ $ tmux ls
 In case of existing tmux sessions:
 
 ```shell
-fe: 1 windows (created Tue Apr 16 16:22:53 2019) [204x55]
+node: 1 windows (created Tue Apr 16 16:22:53 2019) [204x55]
 ```
 
 In case of *no* tmux sessions:
