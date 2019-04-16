@@ -29,6 +29,7 @@ no server running on /private/tmp/tmux-501/default
 ```shell
 $ tmux new -s node
 ```
+This will create a new tmux session with the name: _node_ and you will automatically be attached to it.
 
 ### Attach to tmux session
 
