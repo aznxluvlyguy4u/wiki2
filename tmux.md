@@ -26,12 +26,16 @@ no server running on /private/tmp/tmux-501/default
 
 ### Create a tmux session (if none exists)
 
+Assume you want to create a session named: _node_
+
 ```shell
 $ tmux new -s node
 ```
 This will create a new tmux session with the name: _node_ and you will automatically be attached to it.
 
 ### Attach to tmux session
+
+Assume you want to attach to session named: _node_
 
 ```shell
 $ tmux a -t node
@@ -41,4 +45,12 @@ $ tmux a -t node
 
 ```shell
 $ ctrl b d
+```
+
+### Kill a tmux session (if needed)
+
+Assume you want to kill to session named: _node_
+
+```shell
+$ tmux kill-session -t node     
 ```
