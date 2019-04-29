@@ -15,7 +15,6 @@
 | 0. [Setup & Configuration](#markdown-header-setup-&-configuration)           |
 | 1. [Compile, build & run locally](#markdown-header-compile,-build-&-run)     |
 | 3. [Remote deploying](#markdown-header-remote-deploying)                     |
-| 4. [Architecture](#markdown-header-architecture)                             |
 | 6. [Resources](#markdown-header-resources)                                   |
 | 7. [Glossary with definitions](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Glossary)
 
@@ -52,7 +51,7 @@ This sections describes on what the prerequisites are on getting started to get 
 
 It is recommended to use [VSCode](https://code.visualstudio.com/)
 
-##### SonarLint - IntelliJ plugin
+##### SonarLint - plugin
 
 Because we use [SonarQube](http://sonarqube.org) for static code-analysis, we will also use the [SonarLint](https://www.sonarlint.org) plugin, which we are going to connect to our SonarQube Instance, to retrieve custom profiles for linting.
 
@@ -73,14 +72,6 @@ https://www.sonarlint.org/vscode/#vscode-connected-mode
 Create an AWS profile (in: _~/.aws/credentials_) with the _profile name_: _oceanpremium-serverless-publisher_
 
 *Note*: The credentials file is created by installing the [AWS CLI](https://github.com/aws/aws-cli) (thus installed it...)
-
-##### Serverless plugin
-
-- [Serverless NPM](https://serverless.com)
-
-```shell
-$ npm install serverless -g
-```
 
 ## Setup & configurations
 
@@ -182,14 +173,6 @@ Which will starts a node server on [http://localhost:3000](http://localhost:3000
 **Don't forget** to [detach](https://bitbucket.org/jvt/ocean-premium-frontend/wiki/tmux#markdown-header-detach-from-current-tmux-session) from the tmux session.
 
 ## Additional configurations / relevant information
-
-TO BE DOCUMENTED
-
-## Technical details
-
-Like architectural design choices, algorithm explanations, ect
-
-## Architecture
 
 TO BE DOCUMENTED
 
