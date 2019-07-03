@@ -14,9 +14,9 @@
 |------------------------------------------------------------------------------|
 | 0. [Setup & Configuration](#markdown-header-setup-&-configuration)           |
 | 1. [Compile, build & run locally](#markdown-header-compile,-build-&-run)     |
-| 3. [Remote deploying](#markdown-header-remote-deploying)                     |
-| 6. [Resources](#markdown-header-resources)                                   |
-| 7. [Glossary with definitions](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Glossary)
+| 2. [Remote deploying](#markdown-header-remote-deploying)                     |
+| 3. [Resources](#markdown-header-resources)                                   |
+| 4. [Glossary with definitions](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Glossary)
 
 ## Resources
 
