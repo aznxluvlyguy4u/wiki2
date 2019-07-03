@@ -65,14 +65,6 @@ https://www.sonarlint.org/vscode/#vscode-connected-mode
 ##### CI
 - [JVT CircleCI - Ocean Premium team access](https://circleci.com/bb/jvt/oceanpremium)
 
-##### AWS
-- [Ocean Premium AWS Console access](https://oceanpremium.signin.aws.amazon.com/console)
-- [AWS CLI](https://github.com/aws/aws-cli)
-
-Create an AWS profile (in: _~/.aws/credentials_) with the _profile name_: _oceanpremium-serverless-publisher_
-
-*Note*: The credentials file is created by installing the [AWS CLI](https://github.com/aws/aws-cli) (thus installed it...)
-
 ## Setup & configurations
 
 Make sure prerequisites are met, then clone the repo:
