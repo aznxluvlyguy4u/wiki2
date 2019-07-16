@@ -32,6 +32,10 @@
 
 - [Initial design](https://www.figma.com/proto/0KBc0Pattj9Cc9ov7akc3VFD/Ocean-Premium?node-id=178%3A1962&viewport=468%2C522%2C0.778865&scaling=min-zoom&redirected=1)
 
+## Project details
+This project is a [Next.js](https://nextjs.org/) application using the [React framework](https://reactjs.org/).
+
+[Diagrams](Link URL)
 
 ## Setup & Configuration
 
