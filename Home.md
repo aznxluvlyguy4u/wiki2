@@ -130,6 +130,30 @@ TO BE DOCUMENTED
 https://github.com/kirill-konshin/next-redux-wrapper)
 - [Node-sass - Node.js bindings to libsass](
 https://github.com/sass/node-sass)
+- [Nuka Carousel - Pure React Carousel Component](
+https://github.com/FormidableLabs/nuka-carousel)
+- [Path Match - Thin wrapper around path-to-regexp to make extracting the param names easier](
+https://github.com/pillarjs/path-match)
+- [Prop Types - Runtime type checking for React props and similar objects](
+https://github.com/facebook/prop-types)
+- [React - A declarative, efficient, and flexible JavaScript library for building user interfaces](
+https://github.com/facebook/react)
+- [React burger menu - An off-canvas sidebar component](
+https://github.com/negomi/react-burger-menu)
+- [React collapse - React Collapse / Accordion](
+https://github.com/react-component/collapse)
+- [React dates - An easily internationalizable, mobile-friendly datepicker library for the web](
+https://github.com/airbnb/react-dates)
+- [React dom - A declarative, efficient, and flexible JavaScript library for building user interfaces](
+https://github.com/facebook/react)
+- [React HTML parser - Converts HTML strings directly into React components](
+https://github.com/wrakky/react-html-parser)
+- [React icons - SVG react icons of popular icon packs](
+https://github.com/react-icons/react-icons)
+- [React modal - Accessible modal dialog component for React](
+https://github.com/reactjs/react-modal)
+
+
 
 
 
