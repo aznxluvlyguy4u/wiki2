@@ -152,9 +152,32 @@ https://github.com/wrakky/react-html-parser)
 https://github.com/react-icons/react-icons)
 - [React modal - Accessible modal dialog component for React](
 https://github.com/reactjs/react-modal)
-
-
-
+- [React motion - A spring that solves your animation problems](
+https://github.com/chenglou/react-motion)
+- [React paginate - A ReactJS component that creates a pagination](
+https://github.com/AdeleD/react-paginate)
+- [React redux - Official React bindings for Redux](
+https://github.com/reduxjs/react-redux)
+- [React select - The Select Component for React.js](
+https://github.com/JedWatson/react-select)
+- [React spinners - TA collection of loading spinner components for react](
+https://github.com/davidhu2000/react-spinners)
+- [React toastify - React notification made easy](
+https://github.com/fkhadra/react-toastify)
+- [React with direction - Components to support both right-to-left (RTL) and left-to-right (LTR) layouts in React](
+https://github.com/airbnb/react-with-direction)
+- [Redux - Predictable state container for JavaScript apps](
+https://github.com/reduxjs/redux)
+- [SASS resources loader - SASS resources (e.g. variables, mixins etc.) loader for Webpack. Also works with less, post-css, etc.](
+https://github.com/shakacode/sass-resources-loader)
+- [Slugify - Slugifies a string](
+https://github.com/simov/slugify)
+- [Throttle Debounce - Throttle and debounce functions](
+https://github.com/niksy/throttle-debounce)
+- [Node URL - node.js core url module as a module](
+https://github.com/defunctzombie/node-url)
+- [Yup - Dead simple Object schema validation](
+https://github.com/jquense/yup)
 
 
 
