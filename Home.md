@@ -35,7 +35,7 @@
 ## Project details
 This project is a [Next.js](https://nextjs.org/) application using the [React framework](https://reactjs.org/).
 
-[Diagrams](Link URL)
+[Diagrams](https://bitbucket.org/jvt/ocean-premium-frontend/wiki/Diagrams)
 
 ## Setup & Configuration
 
