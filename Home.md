@@ -94,7 +94,7 @@ $ npm install
 $ npm run dev
 ```
 
-#### Run locally with hot reloading
+#### Or run locally with hot reloading
 
 ```shell
 $ npm run start-dev
