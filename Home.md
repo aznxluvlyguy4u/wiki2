@@ -178,14 +178,3 @@ https://github.com/niksy/throttle-debounce)
 https://github.com/defunctzombie/node-url)
 - [Yup - Dead simple Object schema validation](
 https://github.com/jquense/yup)
-
-
-
-
-
-
-- [Next.js - Serverside renderer](https://nextjs.org/)
-- [Path-match - API endpoint util](https://github.com/pillarjs/path-match)
-- [React.js - UI library](https://reactjs.org/)
-- [React-dom - HTML DOM util](https://reactjs.org/docs/react-dom.html)
-- [TEMPLATE - NAME - SHORT DESCRIPTION OF DEPENDENCY!!!](https://github.com/defunctzombie/node-url)
