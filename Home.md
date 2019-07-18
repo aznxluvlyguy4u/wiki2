@@ -126,6 +126,10 @@ TO BE DOCUMENTED
 - [Moment - Parse, validate, manipulate, and display dates in javascript](https://github.com/moment/moment)
 - [Next.js - The React Framework](https://github.com/zeit/next.js)
 - [Next fonts - Import fonts in Next.js (supports woff, woff2, eot, ttf & otf) ](https://github.com/rohanray/next-fonts)
+- [Next Redux Wrapper - Redux wrapper for Next.js](
+https://github.com/kirill-konshin/next-redux-wrapper)
+- [Node-sass - Node.js bindings to libsass](
+https://github.com/sass/node-sass)
 
 
 
