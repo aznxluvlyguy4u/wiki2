@@ -121,11 +121,11 @@ TO BE DOCUMENTED
 - [Express - Webframework](https://github.com/expressjs/express)
 - [Formik - Build forms in React, without the tears](https://github.com/jaredpalmer/formik)
 - [Jsdom - A JavaScript implementation of the WHATWG DOM and HTML standards, for use with node.js](https://github.com/jsdom/jsdom)
-- [Jsdom global - Enable DOM in Node.js](https://github.com/rstacruz/jsdom-global)
+- [Jsdom Global - Enable DOM in Node.js](https://github.com/rstacruz/jsdom-global)
 - [Lodash - A modern JavaScript utility library delivering modularity, performance, & extras](https://github.com/lodash/lodash)
 - [Moment - Parse, validate, manipulate, and display dates in javascript](https://github.com/moment/moment)
 - [Next.js - The React Framework](https://github.com/zeit/next.js)
-- [Next fonts - Import fonts in Next.js (supports woff, woff2, eot, ttf & otf) ](https://github.com/rohanray/next-fonts)
+- [Next Fonts - Import fonts in Next.js (supports woff, woff2, eot, ttf & otf) ](https://github.com/rohanray/next-fonts)
 - [Next Redux Wrapper - Redux wrapper for Next.js](
 https://github.com/kirill-konshin/next-redux-wrapper)
 - [Node-sass - Node.js bindings to libsass](
@@ -138,37 +138,37 @@ https://github.com/pillarjs/path-match)
 https://github.com/facebook/prop-types)
 - [React - A declarative, efficient, and flexible JavaScript library for building user interfaces](
 https://github.com/facebook/react)
-- [React burger menu - An off-canvas sidebar component](
+- [React Burger Menu - An off-canvas sidebar component](
 https://github.com/negomi/react-burger-menu)
-- [React collapse - React Collapse / Accordion](
+- [React Collapse - React Collapse / Accordion](
 https://github.com/react-component/collapse)
-- [React dates - An easily internationalizable, mobile-friendly datepicker library for the web](
+- [React Dates - An easily internationalizable, mobile-friendly datepicker library for the web](
 https://github.com/airbnb/react-dates)
-- [React dom - A declarative, efficient, and flexible JavaScript library for building user interfaces](
+- [React Dom - A declarative, efficient, and flexible JavaScript library for building user interfaces](
 https://github.com/facebook/react)
 - [React HTML parser - Converts HTML strings directly into React components](
 https://github.com/wrakky/react-html-parser)
-- [React icons - SVG react icons of popular icon packs](
+- [React Icons - SVG react icons of popular icon packs](
 https://github.com/react-icons/react-icons)
-- [React modal - Accessible modal dialog component for React](
+- [React Modal - Accessible modal dialog component for React](
 https://github.com/reactjs/react-modal)
-- [React motion - A spring that solves your animation problems](
+- [React Motion - A spring that solves your animation problems](
 https://github.com/chenglou/react-motion)
-- [React paginate - A ReactJS component that creates a pagination](
+- [React Paginate - A ReactJS component that creates a pagination](
 https://github.com/AdeleD/react-paginate)
-- [React redux - Official React bindings for Redux](
+- [React Redux - Official React bindings for Redux](
 https://github.com/reduxjs/react-redux)
-- [React select - The Select Component for React.js](
+- [React Select - The Select Component for React.js](
 https://github.com/JedWatson/react-select)
-- [React spinners - TA collection of loading spinner components for react](
+- [React Spinners - TA collection of loading spinner components for react](
 https://github.com/davidhu2000/react-spinners)
-- [React toastify - React notification made easy](
+- [React Toastify - React notification made easy](
 https://github.com/fkhadra/react-toastify)
 - [React with direction - Components to support both right-to-left (RTL) and left-to-right (LTR) layouts in React](
 https://github.com/airbnb/react-with-direction)
 - [Redux - Predictable state container for JavaScript apps](
 https://github.com/reduxjs/redux)
-- [SASS resources loader - SASS resources (e.g. variables, mixins etc.) loader for Webpack. Also works with less, post-css, etc.](
+- [SASS Resources Loader - SASS resources (e.g. variables, mixins etc.) loader for Webpack. Also works with less, post-css, etc.](
 https://github.com/shakacode/sass-resources-loader)
 - [Slugify - Slugifies a string](
 https://github.com/simov/slugify)
