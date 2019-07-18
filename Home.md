@@ -105,10 +105,6 @@ Which will starts a node server on [http://localhost:3000](http://localhost:3000
 
 See [here](Remote%20deploying) for instructions on deploying
 
-## Additional configurations / relevant information
-
-TO BE DOCUMENTED
-
 ## Dependencies
 
 
