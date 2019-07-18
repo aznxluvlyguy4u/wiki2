@@ -94,6 +94,12 @@ $ npm install
 $ npm run dev
 ```
 
+#### Run locally with hot reloading
+
+```shell
+$ npm run start-dev
+```
+
 Which will starts a node server on [http://localhost:3000](http://localhost:3000)
 ### Remote deploying
 
