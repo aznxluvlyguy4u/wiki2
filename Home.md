@@ -111,8 +111,28 @@ TO BE DOCUMENTED
 
 ## Dependencies
 
+
+- [Emotion - The Next Generation of CSS-in-JS](https://github.com/emotion-js/emotion)
+- [Sentry - Error logging SDK](https://github.com/getsentry/sentry-javascript/tree/master/packages/browser)
+- [Next-Css - Plugin voor CSS in Next.js](https://github.com/zeit/next-plugins/tree/master/packages/next-css)
+- [Next-Sass - Plugin voor SASS in Next.js](https://github.com/zeit/next-plugins/tree/master/packages/next-sass)
 - [Axios - HTTP client](https://github.com/axios/axios)
+- [Dotenv - Loads environment variables from .env for nodejs projects](https://github.com/motdotla/dotenv#readme)
 - [Express - Webframework](https://github.com/expressjs/express)
+- [Formik - Build forms in React, without the tears](https://github.com/jaredpalmer/formik)
+- [Jsdom - A JavaScript implementation of the WHATWG DOM and HTML standards, for use with node.js](https://github.com/jsdom/jsdom)
+- [Jsdom global - Enable DOM in Node.js](https://github.com/rstacruz/jsdom-global)
+- [Lodash - A modern JavaScript utility library delivering modularity, performance, & extras](https://github.com/lodash/lodash)
+- [Moment - Parse, validate, manipulate, and display dates in javascript](https://github.com/moment/moment)
+- [Next.js - The React Framework](https://github.com/zeit/next.js)
+- [Next fonts - Import fonts in Next.js (supports woff, woff2, eot, ttf & otf) ](https://github.com/rohanray/next-fonts)
+
+
+
+
+
+
+
 - [Next.js - Serverside renderer](https://nextjs.org/)
 - [Path-match - API endpoint util](https://github.com/pillarjs/path-match)
 - [React.js - UI library](https://reactjs.org/)
