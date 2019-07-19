@@ -34,8 +34,16 @@ We use [tmux](https://en.wikipedia.org/wiki/Tmux) to support detachable SSH sess
 
 First navigate to where the app is installed:
 
+#### Staging
+
 ```shell
 $ cd /var/www/op-dev.jongensvantechniek.nl
+```
+
+#### Production
+
+```shell
+$ cd /var/www/op-prod.jongensvantechniek.nl
 ```
 
 ### Get latest changes
