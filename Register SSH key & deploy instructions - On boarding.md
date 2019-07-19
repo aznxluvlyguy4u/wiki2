@@ -27,7 +27,11 @@ https://stackoverflow.com/c/jongens-van-techniek/questions/98
 
 Go to AWS EC2 overview, to see the corresponding elastic ip associated to the instance:
 
-https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1#Instances:sort=instanceId or https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1#Addresses:sort=PublicIp
+https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1#Instances:sort=instanceId 
+
+or 
+
+https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1#Addresses:sort=PublicIp
 Currently two instances are setup:
 
 - Frontend PROD
