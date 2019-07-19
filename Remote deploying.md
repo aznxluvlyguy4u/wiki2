@@ -49,10 +49,14 @@ $ git pull
 #### Install packages
 
 ```shell
-$ sudo npm install
+$ npm install
 ```
 
-Notice the `sudo` command, this is needed otherwise you will get permission errors.
+Possible, you need to execute with the `sudo` command, in case of permission errors:
+
+```shell
+$ sudo npm install
+```
 
 #### Create a production build 
 
