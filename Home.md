@@ -17,6 +17,7 @@
 | 2. [Remote deploying](#markdown-header-remote-deploying)                     |
 | 3. [Resources](#markdown-header-resources)                                   |
 | 4. [Glossary with definitions](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Glossary)
+| 5. [Onboarding - Peter V. SSH key registration / deploying](Register%20SSH%20key%20&%20deploy%20instructions%20-%20On%20boarding)|
 
 ## Resources
 
