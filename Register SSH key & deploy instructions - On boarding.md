@@ -47,6 +47,6 @@ registreert._
 
 ### Deployen frontend
 
-Na succesvol SSH-en naar EC2 instance, volg de volgende procedure om de frontend te deployen:
+Na succesvol SSH-en naar EC2 instance, volg de procedure om de frontend te deployen:
 
 https://bitbucket.org/jvt/ocean-premium-frontend/wiki/Remote%20deploying
