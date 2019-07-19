@@ -4,7 +4,7 @@
 
  - Zie Lastpass (invite aan: peter@peershaped.nl)
 
-Na inloggen, _registreer je public SSH key, in OP - AWS code commit en Opsworks:
+Na inloggen, _registreer je public SSH key_, in OP - AWS code commit en Opsworks:
 
 - AWS code commit:
 
