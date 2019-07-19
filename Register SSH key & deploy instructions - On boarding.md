@@ -21,6 +21,7 @@ Na registratie van je public SSH key, kan je SSH-en naar de EC2 instances
 _Note: Let wel op dat SSH gebeurt vanaf IP adres van JVT kantoor, mocht je een ander adres
 willen whitelisten, laat dat dan even aan mij weten._
 
+Achtergrond informatie: EC2 SSH key registratie: https://stackoverflow.com/c/jongens-van-techniek/questions/98
 
 ### Voorbeeld
 
