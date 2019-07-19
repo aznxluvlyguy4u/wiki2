@@ -90,3 +90,15 @@ $ exit
 ```shell
 $ exit
 ```
+
+## Verification
+
+Now you are done deploying, either go to the staging or production environment to verify that the deployment is successful.
+
+### Staging
+
+https://op-dev.jongensvantechniek.nl
+
+### Production
+
+https://op-prod.jongensvantechniek.nl
