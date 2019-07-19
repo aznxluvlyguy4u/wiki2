@@ -6,7 +6,7 @@
 
  - OP - AWS login console: https://oceanpremium.signin.aws.amazon.com/console
 
-Na inloggen, _registreer je public SSH key_, in OP - AWS code commit en Opsworks:
+Na inloggen, _registreer je public SSH key_, in OP - _AWS code commit en Opsworks_:
 
 - AWS code commit:
 
