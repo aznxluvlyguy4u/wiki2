@@ -4,9 +4,7 @@
 
  - Zie Lastpass (invite aan: peter@peershaped.nl)
 
-OP - AWS login console:
-
-https://oceanpremium.signin.aws.amazon.com/console
+ - OP - AWS login console: https://oceanpremium.signin.aws.amazon.com/console
 
 Na inloggen, _registreer je public SSH key_, in OP - AWS code commit en Opsworks:
 
