@@ -32,6 +32,7 @@ https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1#Instances:
 or 
 
 https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1#Addresses:sort=PublicIp
+
 Currently two instances are setup:
 
 - Frontend PROD
