@@ -1,12 +1,12 @@
 # Register SSH key & deploy instructions - On boarding
 
-###Login credentials AWS - Ocean premium (OP)
+### Login credentials AWS - Ocean premium (OP)
 
- - Zie Lastpass (invite aan: peter@peershaped.nl)
+ - See Lastpass, for the shared AWS credentials of your AWS account
 
  - OP - AWS login console: https://oceanpremium.signin.aws.amazon.com/console
 
-Na inloggen, _registreer je public SSH key_, in OP - _AWS code commit en Opsworks_:
+After logging in, register your public SSH key_, in OP - _AWS code commit en Opsworks_:
 
 - AWS code commit:
 
@@ -16,37 +16,34 @@ https://console.aws.amazon.com/iam/home?region=eu-west-1#/security_credentials?c
 
 https://console.aws.amazon.com/opsworks/home?region=eu-west-1#/users/arn%3Aaws%3Aiam%3A%3A469374438605%3Auser%2Fpeter.verkooijen/edit
 
-Na registratie van je public SSH key, kan je SSH-en naar de EC2 instances
+After registration of your public SSH key, you can SSH into the EC2 instances.
 
-_Note: Let wel op dat SSH gebeurt vanaf IP adres van JVT kantoor, mocht je een ander adres
-willen whitelisten, laat dat dan even aan mij weten._
+_Note: Make sure to SSH from the whitelisted IP address (JVT Office)_
 
-Achtergrond informatie: EC2 SSH key registratie: https://stackoverflow.com/c/jongens-van-techniek/questions/98
+More information about EC2 SSH key registration process: 
+https://stackoverflow.com/c/jongens-van-techniek/questions/98
 
-### Voorbeeld
+### Determine IP address
+
+Go to AWS EC2 overview, to see the corresponding elastic ip associated to the instance:
+
+https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1#Instances:sort=instanceId
+
+Currently two instances are setup:
+
+- Frontend PROD
+- Frontend DEV
+
+### SSH 
+
+Finally you can SSH into instance:
 
 ```shell
 $ ssh iam-username@ip.address
 ```
 
-#### Staging
-
-```shell
-ssh peterverkooijen@99.80.168.39
-```
-
-#### Production
-
-```shell
-ssh peterverkooijen@34.255.133.117
-```
-
-_Note: Bovenstaande stappen zijn door mij getest en gevalideerd (met eigen SSH key onder jouw account) en heb de conclusie
-dat bovenstaande stappen correct zijn en leiden tot succesvol SSH-en, mits je de stappen correct opvolgd en een valide SSH key 
-registreert._
-
 ### Deployen frontend
 
-Na succesvol SSH-en naar EC2 instance, volg de procedure om de frontend te deployen:
+After succesful SSH-ing into EC2 instance, follow the deploy instructions:
 
 https://bitbucket.org/jvt/ocean-premium-frontend/wiki/Remote%20deploying
