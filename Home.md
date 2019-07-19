@@ -21,6 +21,8 @@
 
 ## Resources
 
+- [OP - POSTman collection - updated 19-07-2019](https://shopix99-my.sharepoint.com/:u:/g/personal/peter_jongensvantechniek_nl/EUUIHQjXJ75MifLkTotyb2kBToveIKQjOfE_Eofe1PfV3A?e=D3vYyh)
+
 - [REST API Best practices](https://github.com/tfredrich/RestApiTutorial.com/raw/master/media/RESTful%20Best%20Practices-v1_2.pdf)
 
 - [Ocean Premium - Jira Scrumboard](https://dudesoftechnology.atlassian.net/jira/software/projects/OP/boards/53)
