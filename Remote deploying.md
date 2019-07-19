@@ -69,3 +69,7 @@ $ npm run start
 Which will starts a node server on [http://localhost:3000](http://localhost:3000), for which Apache is configured to proxy request to when server request are coming in.
 
 **Don't forget** to [detach](https://bitbucket.org/jvt/ocean-premium-frontend/wiki/tmux#markdown-header-detach-from-current-tmux-session) from the tmux session.
+
+```shell
+$ CTRL b d
+```
