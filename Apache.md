@@ -56,6 +56,14 @@ $ sudo touch /etc/apache2/sites-available/<service>.<domain>.com.conf
 $ sudo nano /etc/apache2/sites-available/<service>.<domain>.com.conf
 ```
 
+### Proxy requests
+
+In order to proxy all incoming requests to the nodeJs application, enable proxy:
+
+```
+$ a2enmod proxy && a2enmod proxy_http
+```
+
 #### Production
 
 Paste and fit changes to your needs, this example is configured for NSFO - ***production*** environment:
@@ -78,6 +86,7 @@ Paste and fit changes to your needs, this example is configured for NSFO - ***pr
     </Location>
 </VirtualHost>
 ```
+Where _http://localhost:3000/_ is the host and port the NodeJS express server is listening for incoming requests.
 
 Disable default apache config:
 
