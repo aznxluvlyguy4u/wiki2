@@ -43,6 +43,12 @@ $ cd /var/www/op-dev.jongensvantechniek.nl
 #### Production
 
 ```shell
+$ cd /var/www/rental.oceanpremium.com
+```
+
+##### Obsolete
+
+```shell
 $ cd /var/www/op-prod.jongensvantechniek.nl
 ```
 
