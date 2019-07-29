@@ -109,4 +109,4 @@ https://op-dev.jongensvantechniek.nl
 
 ### Production
 
-https://op-prod.jongensvantechniek.nl
+http://rental.oceanpremium.com & https://op-prod.jongensvantechniek.nl
