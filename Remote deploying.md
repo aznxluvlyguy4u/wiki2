@@ -1,5 +1,9 @@
 ### Remote deploying
 
+*Note: the frontend is hosted on an EC2 instance with Apache webserver.*
+
+See [here](Apache) for instructions & insights on how Apache is configured.
+
 #### Prerequisites
 
 - SSH access to EC2 instance
