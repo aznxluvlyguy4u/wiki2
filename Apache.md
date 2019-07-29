@@ -66,7 +66,7 @@ $ a2enmod proxy && a2enmod proxy_http
 
 #### Production
 
-Paste and fit changes to your needs, this example is configured for NSFO - ***production*** environment:
+Paste and fit changes to your needs, this example is configured for Ocean Premium - ***production*** environment:
 
 ```conf
 <VirtualHost *:80>
