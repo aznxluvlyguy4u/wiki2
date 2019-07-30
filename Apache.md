@@ -91,6 +91,10 @@ Paste and fit changes to your needs, this example is configured for Ocean Premiu
 </VirtualHost>
 ```
 
+- Where _http://localhost:3000/_ is the host and port the NodeJS express server is listening for incoming requests.
+
+- Where _{HTTP_HOST}_ points to the IP address of the server
+
 ### With SSL
 
 See [these](SSL%20certificate) instructions for SSL certificate.
@@ -131,7 +135,7 @@ Paste and fit changes to your needs, this example is configured for Ocean Premiu
 
 - Where _{HTTP_HOST}_ points to the IP address of the server
 
-- Where _{SERVER_NAME}_ points tothe DNS, that points to IP address of server
+- Where _{SERVER_NAME}_ points to the DNS, that points to IP address of server
 
 Disable default apache config:
 
