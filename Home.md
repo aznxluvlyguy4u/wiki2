@@ -14,7 +14,7 @@
 |------------------------------------------------------------------------------|
 | 0. [Setup & Configuration](#markdown-header-setup-&-configuration)           |
 | 1. [Compile, build & run locally](#markdown-header-compile,-build-&-run)     |
-| 2. [Remote deploying](#markdown-header-remote-deploying)                     |
+| 2. [Remote deploying](Remote%20deploying)                     |
 | 3. [Resources](#markdown-header-resources)                                   |
 | 4. [Glossary with definitions](Glossary)
 | 5. [Onboarding - Peter V. SSH key registration / deploying](Register%20SSH%20key%20&%20deploy%20instructions%20-%20On%20boarding)|
