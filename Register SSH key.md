@@ -45,9 +45,3 @@ Finally you can SSH into instance:
 ```shell
 $ ssh iam-username@ip.address
 ```
-
-### Deployen frontend
-
-After succesful SSH-ing into EC2 instance, follow the deploy instructions:
-
-https://bitbucket.org/jvt/ocean-premium-frontend/wiki/Remote%20deploying
