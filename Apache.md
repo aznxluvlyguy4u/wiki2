@@ -66,6 +66,8 @@ $ a2enmod proxy && a2enmod proxy_http
 
 #### Production
 
+### Without SSL
+
 Paste and fit changes to your needs, this example is configured for Ocean Premium - ***Production without SSL*** environment:
 
 ```conf
