@@ -125,6 +125,46 @@ To test the renewal process, you can do a dry run with certbot:
 $ sudo certbot renew --dry-run
 ```
 
+#### Output
+
+```
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Processing /etc/letsencrypt/renewal/rental.oceanpremium.com.conf
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Cert not due for renewal, but simulating renewal for dry run
+Plugins selected: Authenticator apache, Installer apache
+Renewing an existing certificate
+Performing the following challenges:
+http-01 challenge for rental.oceanpremium.com
+Waiting for verification...
+Cleaning up challenges
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+new certificate deployed with reload of apache server; fullchain is
+/etc/letsencrypt/live/rental.oceanpremium.com/fullchain.pem
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+** DRY RUN: simulating 'certbot renew' close to cert expiry
+**          (The test certificates below have not been saved.)
+
+Congratulations, all renewals succeeded. The following certs have been renewed:
+  /etc/letsencrypt/live/rental.oceanpremium.com/fullchain.pem (success)
+** DRY RUN: simulating 'certbot renew' close to cert expiry
+**          (The test certificates above have not been saved.)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+IMPORTANT NOTES:
+ - Your account credentials have been saved in your Certbot
+   configuration directory at /etc/letsencrypt. You should make a
+   secure backup of this folder now. This configuration directory will
+   also contain certificates and private keys obtained by Certbot so
+   making regular backups of this folder is ideal.
+
+```
+
 If you see no errors, you're all set. When necessary, Certbot will renew your certificates and reload Apache to pick up the changes. If the automated renewal process ever fails, Let’s Encrypt will send a message to the email you specified, warning you when your certificate is about to expire.
 
 Source: https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-16-04
