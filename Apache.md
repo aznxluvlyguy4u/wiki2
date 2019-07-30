@@ -127,7 +127,11 @@ Paste and fit changes to your needs, this example is configured for Ocean Premiu
 </VirtualHost>
 ```
 
-Where _http://localhost:3000/_ is the host and port the NodeJS express server is listening for incoming requests.
+- Where _http://localhost:3000/_ is the host and port the NodeJS express server is listening for incoming requests.
+
+- Where _%{HTTP_HOST} ^34\.255\.133\.117$_ is the IP address of the server
+
+- Where _%{SERVER_NAME} =rental.oceanpremium.com_ is the DNS that points to IP address of server
 
 Disable default apache config:
 
