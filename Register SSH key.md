@@ -27,10 +27,19 @@ https://stackoverflow.com/c/jongens-van-techniek/questions/98
 
 Currently two instances are setup:
 
-- Frontend PRODUCTION: **34.255.133.117**
-- Frontend STAGING: **99.80.168.39**
+- Frontend PRODUCTION
 
-Go to AWS EC2 overview, to see the corresponding elastic ip associated to the instance:
+```
+ 34.255.133.117
+```
+
+- Frontend STAGING: 
+
+```
+99.80.168.39
+```
+
+If IP address not provided in the wiki, go to AWS EC2 overview, to see the corresponding elastic ip associated to the instance:
 
 https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1#Instances:sort=instanceId 
 
