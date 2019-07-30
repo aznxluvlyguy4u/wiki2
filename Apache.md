@@ -70,7 +70,7 @@ Paste and fit changes to your needs, this example is configured for Ocean Premiu
 
 ```conf
 <VirtualHost *:80>
-    ServerAdmin steven@jongensvantechniek.nl
+    ServerAdmin admin@oceanpremium.com
     ServerName rental.oceanpremium.com
 
     ProxyRequests off
@@ -84,6 +84,10 @@ Paste and fit changes to your needs, this example is configured for Ocean Premiu
         ProxyPass http://localhost:3000/
         ProxyPassReverse http://localhost:3000/
     </Location>
+
+    # Redirect ip address call to dns
+    RewriteCond %{HTTP_HOST} ^34\.255\.133\.117$
+    RewriteRule ^(.*)$ https://rental.oceanpremium.com$1 [L,R=301]
 </VirtualHost>
 ```
 
@@ -111,9 +115,15 @@ Paste and fit changes to your needs, this example is configured for Ocean Premiu
         ProxyPass http://localhost:3000/
         ProxyPassReverse http://localhost:3000/
     </Location>
+    
+    # Redirect all http requests to https
     RewriteEngine on
     RewriteCond %{SERVER_NAME} =rental.oceanpremium.com
     RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
+    
+    # Redirect ip address call to dns
+    RewriteCond %{HTTP_HOST} ^34\.255\.133\.117$
+    RewriteRule ^(.*)$ https://rental.oceanpremium.com$1 [L,R=301]
 </VirtualHost>
 ```
 
