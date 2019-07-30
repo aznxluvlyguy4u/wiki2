@@ -1,4 +1,4 @@
-# Register SSH key & deploy instructions - On boarding
+# Register SSH key
 
 ### Login credentials AWS - Ocean premium (OP)
 
