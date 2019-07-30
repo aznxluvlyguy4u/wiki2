@@ -2,7 +2,7 @@
 
 The production frontend (https://rental.oceanpremium.com) is configured with an SSL certificate generated via: letsencrypt.org
 
-*Note: the **SSL certificate expires every 90 days**, therefore we setup an auto-renewal certbot, see [here](markdown-header-auto-renewal-certbot)*
+*Note: the **SSL certificate expires every 90 days**, therefore we setup an auto-renewal certbot, see [here](markdown-header-auto-renewal--certbot)*
 
 ### SSL report
 
