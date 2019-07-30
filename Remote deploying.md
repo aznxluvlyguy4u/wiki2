@@ -1,7 +1,5 @@
 # Remote deploying
 
-## Table of Content
-
 | Table of Content                                                             |
 |------------------------------------------------------------------------------|
 | 0. [Prerequisites](#markdown-header-prerequisites)           |
