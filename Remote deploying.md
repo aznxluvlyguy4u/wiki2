@@ -1,5 +1,16 @@
 # Remote deploying
 
+## Table of Content
+
+| Table of Content                                                             |
+|------------------------------------------------------------------------------|
+| 0. [Prerequisites](#markdown-header-prerequisites)           |
+| 1. [SSH-ing into server](#markdown-header-1-ssh-ing-into-server)     |
+| 2. [Attach or create new Tmux session](#markdown-header-2-attach-or-create-new-tmux-session)|                   
+| 3. [Navigate to the web app](#markdown-header-3-navigate-to-the-web-app)|
+| 4. [Get latest changes](#markdown-header-4a-get-latest-changes)
+| 5. [Detach from Tmux session](#markdown-header-detach-from-tmux-session)|
+
 ## Prerequisites
 
 - [Register SSH key](Register%20SSH%20key) 
@@ -57,7 +68,7 @@ $ cd /var/www/rental.oceanpremium.com
 $ cd /var/www/op-prod.jongensvantechniek.nl
 ```
 
-### 4 Get latest changes
+### 4a Get latest changes
 
 Then pull the latest changes (determine if you are on the correct branch):
 
@@ -65,7 +76,7 @@ Then pull the latest changes (determine if you are on the correct branch):
 $ git pull
 ```
 
-#### 5a Install packages
+#### 4b Install packages
 
 ```shell
 $ npm install
@@ -77,13 +88,13 @@ Possible, you need to execute with the `sudo` command, in case of permission err
 $ sudo npm install
 ```
 
-#### 5b Create a production build 
+#### 4c Create a production build 
 
 ```shell
 $ npm run build
 ```
 
-#### 5c Spin up node server
+#### 4d Spin up node server
 
 ```shell
 $ npm run start
