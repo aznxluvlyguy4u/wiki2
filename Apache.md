@@ -145,7 +145,7 @@ Disable default apache config:
 $ a2dissite 000-default
 ```
 
-Enable custom api config:
+Enable custom apache config:
 
 ```shell
 $ sudo a2ensite <service>.<domain>.com
