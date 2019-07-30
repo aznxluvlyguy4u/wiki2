@@ -29,10 +29,13 @@ You can find the IP address of the instance on the OP AWS under the [EC2 section
 $ sudo -i
 ```
 
+- Attach or create new Tmux session
+
 We use [tmux](https://en.wikipedia.org/wiki/Tmux) to support detachable SSH sessions to run long running jobs, like running the node server. See [here](https://tmuxcheatsheet.com) for a tmux cheatsheet.
 
 - Follow the [tmux](tmux) instructions to create or attach to tmux session
 
+When attached or created a new tmux session, continue with below.
 
 ### Navigate to the web app
 
