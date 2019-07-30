@@ -31,9 +31,11 @@ $ sudo -i
 
 #### Attach or create new Tmux session
 
-We use [tmux](https://en.wikipedia.org/wiki/Tmux) to support detachable SSH sessions to run long running jobs, like running the node server. See [here](https://tmuxcheatsheet.com) for a tmux cheatsheet.
+We use [tmux](https://en.wikipedia.org/wiki/Tmux) to support detachable SSH sessions to run long running jobs, like running the node server. 
 
 - Follow the [tmux](tmux) instructions to create or attach to tmux session
+
+- See [here](https://tmuxcheatsheet.com) for a tmux cheatsheet
 
 When attached or created a new tmux session, continue with below.
 
