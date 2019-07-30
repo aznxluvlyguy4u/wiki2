@@ -23,7 +23,7 @@ _Note: Make sure to SSH from the whitelisted IP address (JVT Office)_
 More information about EC2 SSH key registration process: 
 https://stackoverflow.com/c/jongens-van-techniek/questions/98
 
-### Determine IP address
+### Determine IP of target host
 
 Go to AWS EC2 overview, to see the corresponding elastic ip associated to the instance:
 
