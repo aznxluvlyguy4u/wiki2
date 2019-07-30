@@ -15,7 +15,7 @@ and ask Steve to setup an IAM user for you, if not already done so, that _allows
 
 If you already have an IAM user, with the mandatory configurations as described [here](https://stackoverflow.com/c/jongens-van-techniek/questions/98), you can continue.
 
-#### SSH-ing into server
+#### 1 SSH-ing into server
 
 ```shell
 $ ssh iam-username@instance.ip.address
@@ -29,7 +29,7 @@ You can find the IP address of the instance on the OP AWS under the [EC2 section
 $ sudo -i
 ```
 
-#### Attach or create new Tmux session
+#### 2 Attach or create new Tmux session
 
 We use [tmux](https://en.wikipedia.org/wiki/Tmux) to support detachable SSH sessions to run long running jobs, like running the node server. 
 
@@ -39,7 +39,7 @@ We use [tmux](https://en.wikipedia.org/wiki/Tmux) to support detachable SSH sess
 
 When attached or created a new tmux session, continue with below.
 
-### Navigate to the web app
+### 3 Navigate to the web app
 
 First navigate to where the app is installed:
 
@@ -61,7 +61,7 @@ $ cd /var/www/rental.oceanpremium.com
 $ cd /var/www/op-prod.jongensvantechniek.nl
 ```
 
-### Get latest changes
+### 4 Get latest changes
 
 Then pull the latest changes (determine if you are on the correct branch):
 
@@ -69,7 +69,7 @@ Then pull the latest changes (determine if you are on the correct branch):
 $ git pull
 ```
 
-#### Install packages
+#### 5a Install packages
 
 ```shell
 $ npm install
@@ -81,13 +81,13 @@ Possible, you need to execute with the `sudo` command, in case of permission err
 $ sudo npm install
 ```
 
-#### Create a production build 
+#### 5b Create a production build 
 
 ```shell
 $ npm run build
 ```
 
-#### Spin up node server
+#### 5c Spin up node server
 
 ```shell
 $ npm run start
@@ -97,7 +97,7 @@ Which will starts a node server on [http://localhost:3000](http://localhost:3000
 
 **Don't forget** to [detach](https://bitbucket.org/jvt/ocean-premium-frontend/wiki/tmux#markdown-header-detach-from-current-tmux-session) from the tmux session.
 
-#### Detach from Tmux session
+#### 6 Detach from Tmux session
 
 ```shell
 $ CTRL b d
