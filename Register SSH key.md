@@ -39,7 +39,7 @@ Currently two instances are setup:
 99.80.168.39
 ```
 
-If IP address not provided in the wiki, go to AWS EC2 overview, to see the corresponding elastic ip associated to the instance:
+If IP address are not working, go to AWS EC2 overview, to see the actual corresponding elastic ip associated to the instance:
 
 https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1#Instances:sort=instanceId 
 
