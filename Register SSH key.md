@@ -45,3 +45,5 @@ Finally you can SSH into instance:
 ```shell
 $ ssh iam-username@ip.address
 ```
+
+When successfully ssh'd into server, continue with [Deploying to remote instructions](Remote%20deploying)
