@@ -86,6 +86,35 @@ Paste and fit changes to your needs, this example is configured for Ocean Premiu
     </Location>
 </VirtualHost>
 ```
+
+### With SSL
+
+See [these](SSL%20certificate) instructions for SSL certificate.
+
+The following configuration *redirects all HTTP to HTTPS* and uses an SSL certificate generated with letsencrypt.
+
+```
+<VirtualHost *:80>
+    ServerAdmin admin@oceanpremium.com
+    ServerName rental.oceanpremium.com
+
+    ProxyRequests off
+
+    <Proxy *>
+        Order deny,allow
+        Allow from all
+    </Proxy>
+
+    <Location />
+        ProxyPass http://localhost:3000/
+        ProxyPassReverse http://localhost:3000/
+    </Location>
+    RewriteEngine on
+    RewriteCond %{SERVER_NAME} =rental.oceanpremium.com
+    RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
+</VirtualHost>
+```
+
 Where _http://localhost:3000/_ is the host and port the NodeJS express server is listening for incoming requests.
 
 Disable default apache config:
