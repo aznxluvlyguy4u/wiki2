@@ -9,7 +9,7 @@
 | 2. [Attach or create new Tmux session](#markdown-header-2-attach-or-create-new-tmux-session)|                   
 | 3. [Navigate to the web app](#markdown-header-3-navigate-to-the-web-app)|
 | 4. [Get latest changes](#markdown-header-4a-get-latest-changes)
-| 5. [Detach from Tmux session](#markdown-header-detach-from-tmux-session)|
+| 5. [Detach from Tmux session](#markdown-header-6-detach-from-tmux-session)|
 | 6. [Verification](#markdown-header-verification)|
 
 ## Prerequisites
