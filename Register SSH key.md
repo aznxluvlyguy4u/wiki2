@@ -35,8 +35,8 @@ https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1#Addresses:
 
 Currently two instances are setup:
 
-- Frontend PROD
-- Frontend DEV
+- Frontend PRODUCTION
+- Frontend STAGING
 
 ### SSH 
 
