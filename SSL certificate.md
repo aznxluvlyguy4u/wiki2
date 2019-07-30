@@ -109,4 +109,4 @@ IMPORTANT NOTES:
 
 See here: https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1#SecurityGroups:sort=groupId
 
-The concerning profile is: _JVT EC2_
+The concerning security group is: _JVT EC2_
