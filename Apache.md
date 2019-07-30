@@ -87,7 +87,7 @@ Paste and fit changes to your needs, this example is configured for Ocean Premiu
 
     # Redirect ip address call to dns
     RewriteCond %{HTTP_HOST} ^34\.255\.133\.117$
-    RewriteRule ^(.*)$ https//rental.oceanpremium.com$1 [L,R=301]
+    RewriteRule ^(.*)$ rental.oceanpremium.com$1 [L,R=301]
 </VirtualHost>
 ```
 
@@ -127,7 +127,7 @@ Paste and fit changes to your needs, this example is configured for Ocean Premiu
     
     # Redirect ip address call to dns
     RewriteCond %{HTTP_HOST} ^34\.255\.133\.117$
-    RewriteRule ^(.*)$ https://rental.oceanpremium.com$1 [L,R=301]
+    RewriteRule ^(.*)$ rental.oceanpremium.com$1 [L,R=301]
 </VirtualHost>
 ```
 
