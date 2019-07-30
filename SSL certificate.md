@@ -27,10 +27,10 @@ $ sudo apt install python-certbot-apache
 
 - More information: https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-18-04
 
-* _note:_ the _serverName_ in the virtualhost conf file, needs to match the domain for which the SSL certificate is generated.
+* _note:_ **Again**: the _serverName_ in the virtualhost conf file, needs to match the domain for which the SSL certificate is generated.
 
 ```
-$sudo certbot --apache -d rental.oceanpremium.com
+$ sudo certbot --apache -d rental.oceanpremium.com
 ```
 
 #### Output
