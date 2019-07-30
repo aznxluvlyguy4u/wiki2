@@ -116,3 +116,15 @@ The concerning security group is: _JVT EC2_
 ## Auto-renewal certbot
 
 Because letsencrypt **generated SSL certificates expire every 90 days**, we need to setup auto-renewal.
+
+Let’s Encrypt certificates only last for 90 days. However, the certbot package we installed takes care of this for us by running certbot renew twice a day via a systemd timer. On non-systemd distributions this functionality is provided by a cron script placed in /etc/cron.d. The task runs twice daily and will renew any certificate that's within thirty days of expiration.
+
+To test the renewal process, you can do a dry run with certbot:
+
+```
+$ sudo certbot renew --dry-run
+```
+
+If you see no errors, you're all set. When necessary, Certbot will renew your certificates and reload Apache to pick up the changes. If the automated renewal process ever fails, Let’s Encrypt will send a message to the email you specified, warning you when your certificate is about to expire.
+
+Source: https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-16-04
