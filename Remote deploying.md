@@ -6,7 +6,7 @@
 | 1. [SSH-ing into server](#markdown-header-1-ssh-ing-into-server)     |
 | 2. [Attach or create new Tmux session](#markdown-header-2-attach-or-create-new-tmux-session)|                   
 | 3. [Navigate to the web app](#markdown-header-3-navigate-to-the-web-app)|
-| 4. [Get latest changes](#markdown-header-4a-get-latest-changes)
+| 4. [Get latest changes](#markdown-header-4-get-latest-changes)
 | 5. [Detach from Tmux session](#markdown-header-6-detach-from-tmux-session)|
 | 6. [Verification](#markdown-header-verification)|
 
@@ -67,7 +67,7 @@ $ cd /var/www/rental.oceanpremium.com
 $ cd /var/www/op-prod.jongensvantechniek.nl
 ```
 
-### 4a Get latest changes
+### 4 Get latest changes
 
 Then pull the latest changes (determine if you are on the correct branch):
 
@@ -75,7 +75,7 @@ Then pull the latest changes (determine if you are on the correct branch):
 $ git pull
 ```
 
-#### 4b Install packages
+#### Install packages
 
 ```shell
 $ npm install
@@ -87,13 +87,13 @@ Possible, you need to execute with the `sudo` command, in case of permission err
 $ sudo npm install
 ```
 
-#### 4c Create a production build 
+#### Create a production build 
 
 ```shell
 $ npm run build
 ```
 
-#### 4d Spin up node server
+#### Spin up node server
 
 ```shell
 $ npm run start
