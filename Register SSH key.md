@@ -25,6 +25,11 @@ https://stackoverflow.com/c/jongens-van-techniek/questions/98
 
 ### Determine IP of target host
 
+Currently two instances are setup:
+
+- Frontend PRODUCTION
+- Frontend STAGING
+
 Go to AWS EC2 overview, to see the corresponding elastic ip associated to the instance:
 
 https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1#Instances:sort=instanceId 
@@ -32,11 +37,6 @@ https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1#Instances:
 or 
 
 https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1#Addresses:sort=PublicIp
-
-Currently two instances are setup:
-
-- Frontend PRODUCTION
-- Frontend STAGING
 
 ### SSH 
 
