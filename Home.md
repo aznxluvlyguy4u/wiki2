@@ -16,9 +16,9 @@
 | 1. [Compile, build & run locally](#markdown-header-compile,-build-&-run)     |
 | 2. [Remote deploying](#markdown-header-remote-deploying)                     |
 | 3. [Resources](#markdown-header-resources)                                   |
-| 4. [Glossary with definitions](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Glossary)
+| 4. [Glossary with definitions](Glossary)
 | 5. [Onboarding - Peter V. SSH key registration / deploying](Register%20SSH%20key%20&%20deploy%20instructions%20-%20On%20boarding)|
-| 6. [Server setup & configuration]()|
+| 6. [Server setup & configuration](Server%20setup%20&%20configuration)|
 
 ## Resources
 
