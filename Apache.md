@@ -61,7 +61,7 @@ $ sudo nano /etc/apache2/sites-available/<service>.<domain>.com.conf
 In order to proxy all incoming requests to the nodeJs application, enable proxy:
 
 ```
-$ a2enmod proxy && a2enmod proxy_http
+$ a2enmod proxy && a2enmod proxy_http && a2enmod rewrite 
 ```
 
 #### Production
