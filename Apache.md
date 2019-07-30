@@ -66,7 +66,7 @@ $ a2enmod proxy && a2enmod proxy_http
 
 #### Production
 
-Paste and fit changes to your needs, this example is configured for Ocean Premium - ***production*** environment:
+Paste and fit changes to your needs, this example is configured for Ocean Premium - ***Production without SSL*** environment:
 
 ```conf
 <VirtualHost *:80>
@@ -92,6 +92,8 @@ Paste and fit changes to your needs, this example is configured for Ocean Premiu
 See [these](SSL%20certificate) instructions for SSL certificate.
 
 The following configuration *redirects all HTTP to HTTPS* and uses an SSL certificate generated with letsencrypt.
+
+Paste and fit changes to your needs, this example is configured for Ocean Premium - ***Production with SSL*** environment:
 
 ```
 <VirtualHost *:80>
