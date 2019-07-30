@@ -103,7 +103,7 @@ Which will starts a node server on [http://localhost:3000](http://localhost:3000
 
 **Don't forget** to [detach](https://bitbucket.org/jvt/ocean-premium-frontend/wiki/tmux#markdown-header-detach-from-current-tmux-session) from the tmux session.
 
-#### 6 Detach from Tmux session
+#### 5 Detach from Tmux session
 
 ```shell
 $ CTRL b d
@@ -120,7 +120,7 @@ $ exit
 $ exit
 ```
 
-## Verification
+## 6 Verification
 
 Now you are done deploying, either go to the staging or production environment to verify that the deployment is successful.
 
