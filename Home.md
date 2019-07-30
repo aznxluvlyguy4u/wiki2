@@ -17,8 +17,7 @@
 | 2. [Remote deploying](Remote%20deploying)                     |
 | 3. [Resources](#markdown-header-resources)                                   |
 | 4. [Glossary with definitions](Glossary)
-| 5. [Onboarding - Peter V. SSH key registration / deploying](Register%20SSH%20key%20&%20deploy%20instructions%20-%20On%20boarding)|
-| 6. [Server setup & configuration](Server%20setup%20&%20configuration)|
+| 5. [Server setup & configuration](Server%20setup%20&%20configuration)|
 
 ## Resources
 
