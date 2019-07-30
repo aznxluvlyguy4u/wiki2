@@ -126,8 +126,12 @@ Now you are done deploying, either go to the staging or production environment t
 
 ### Staging
 
-https://op-dev.jongensvantechniek.nl
+- https://op-dev.jongensvantechniek.nl
 
 ### Production
 
-http://rental.oceanpremium.com & https://op-prod.jongensvantechniek.nl
+- http://rental.oceanpremium.com 
+
+or
+
+- https://op-prod.jongensvantechniek.nl
