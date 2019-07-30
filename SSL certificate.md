@@ -2,6 +2,8 @@
 
 The production frontend (https://rental.oceanpremium.com) is configured with an SSL certificate generated via: letsencrypt.org
 
+*Note: the **SSL certificate expires every 90 days**, therefore we setup an auto-renewal certbot, see [here](markdown-header-auto-renewal-certbot)*
+
 ### SSL report
 
 https://www.ssllabs.com/ssltest/analyze.html?d=rental.oceanpremium.com
@@ -110,3 +112,7 @@ IMPORTANT NOTES:
 See here: https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1#SecurityGroups:sort=groupId
 
 The concerning security group is: _JVT EC2_
+
+## Auto-renewal certbot
+
+Because letsencrypt **generated SSL certificates expire every 90 days**, we need to setup auto-renewal.
