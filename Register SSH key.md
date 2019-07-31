@@ -14,7 +14,9 @@ https://console.aws.amazon.com/iam/home?region=eu-west-1#/security_credentials?c
 
 - AWS Opsworks:
 
-https://console.aws.amazon.com/opsworks/home?region=eu-west-1#/users/arn%3Aaws%3Aiam%3A%3A469374438605%3Auser%2Fpeter.verkooijen/edit
+https://console.aws.amazon.com/opsworks/home?region=eu-west-1#/users
+
+- Select _edit_ for your user name and paste in public SSH key
 
 After registration of your public SSH key, you can SSH into the EC2 instances.
 
