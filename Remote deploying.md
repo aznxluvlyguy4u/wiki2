@@ -81,9 +81,9 @@ $ cd /var/www/op-prod.jongensvantechniek.nl
 - Hosted on: https://op-prod.jongensvantechniek.nl
 - SSL via: https://cloudflare.com
 
-### 4 Get latest changes
+### 4 Deploy frontend
 
-Then pull the latest changes (determine if you are on the correct branch):
+First, pull the latest changes (determine if you are on the correct branch):
 
 ```shell
 $ git pull
@@ -91,14 +91,10 @@ $ git pull
 
 #### Install packages
 
-```shell
-$ npm install
-```
-
-Possible, you need to execute with the `sudo` command, in case of permission errors:
+If needed, install packages:
 
 ```shell
-$ sudo npm install
+$ (sudo) npm install
 ```
 
 #### Create a production build 
