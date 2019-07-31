@@ -66,6 +66,7 @@ $ cd /var/www/rental.oceanpremium.com
 
 - Hosted on: https://rental.oceanpremium.com
 - SSL via: https://letsencrypt.org
+- See here _how_ SSL is setup: [SSL Certificate](SSL%20certificate)
 
 ##### Obsolete
 
