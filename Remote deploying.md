@@ -19,7 +19,7 @@ and ask Steve to setup an IAM user for you, if not already done so, that _allows
 
 If you already have an IAM user, with the mandatory configurations as described [here](https://stackoverflow.com/c/jongens-van-techniek/questions/98), you can continue.
 
-- [Register SSH key](Register%20SSH%20key) 
+- [Register your SSH key](Register%20SSH%20key) 
 
 - Make sure to be on the _whitelisted JVT office IP address_ **before** SSH-ing into instance, see [here](https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1#SecurityGroups) on to view and / or update the _inbound_ Security Group rules
 
