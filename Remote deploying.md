@@ -55,11 +55,17 @@ First navigate to where the app is installed:
 $ cd /var/www/op-dev.jongensvantechniek.nl
 ```
 
+- Hosted on: https://op-dev.jongensvantechniek.nl
+- SSL via: https://cloudflare.com
+
 #### Production
 
 ```shell
 $ cd /var/www/rental.oceanpremium.com
 ```
+
+- Hosted on: https://rental.oceanpremium.com
+- SSL via: letsencrypt.org
 
 ##### Obsolete
 
