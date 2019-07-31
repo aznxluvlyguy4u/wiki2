@@ -31,6 +31,20 @@ If you already have an IAM user, with the mandatory configurations as described 
 $ ssh username@instance.ip.address
 ```
 
+Currently two instances are setup:
+
+- Frontend PRODUCTION
+
+```
+ 34.255.133.117
+```
+
+- Frontend STAGING: 
+
+```
+99.80.168.39
+```
+
 - See [here](https://bitbucket.org/jvt/ocean-premium-frontend/wiki/Register%20SSH%20key#markdown-header-determine-ip-of-target-host) to find the IP address of the target host
 You can find the IP address of the instance on the OP AWS under the [EC2 section](https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1#Instances:sort=instanceId).
 
