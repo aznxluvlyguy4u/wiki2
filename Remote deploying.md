@@ -23,6 +23,12 @@ If you already have an IAM user, with the mandatory configurations as described 
 
 #### 1 SSH-ing into server
 
+##### Prerequisite
+
+- Make sure to be on the _whitelisted JVT office IP address_ **before** SSH-ing into instance, see [here](https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1#SecurityGroups) on to view and / or update the _inbound_ Security Group rules
+
+- See [here](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html) on more information about _AWS Security Groups_
+
 ```shell
 $ ssh iam-username@instance.ip.address
 ```
