@@ -73,6 +73,9 @@ $ cd /var/www/rental.oceanpremium.com
 $ cd /var/www/op-prod.jongensvantechniek.nl
 ```
 
+Hosted on: https://op-prod.jongensvantechniek.nl
+SSL via: https://cloudflare.com
+
 ### 4 Get latest changes
 
 Then pull the latest changes (determine if you are on the correct branch):
