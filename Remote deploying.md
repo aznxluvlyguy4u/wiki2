@@ -10,10 +10,6 @@
 | 5. [Detach from Tmux session](#markdown-header-6-detach-from-tmux-session)|
 | 6. [Verification](#markdown-header-verification)|
 
-## Prerequisites
-
-- [Register SSH key](Register%20SSH%20key) 
-
 We currently use an EC2 instance to host the frontend app.
 
 You will need SSH access to the server to which you want to deploy. This is managed via Opworks, see [here](https://stackoverflow.com/c/jongens-van-techniek/questions/98) for instructions, 
@@ -21,13 +17,15 @@ and ask Steve to setup an IAM user for you, if not already done so, that _allows
 
 If you already have an IAM user, with the mandatory configurations as described [here](https://stackoverflow.com/c/jongens-van-techniek/questions/98), you can continue.
 
-#### 1 SSH-ing into server
+## Prerequisites
 
-##### Prerequisite
+- [Register SSH key](Register%20SSH%20key) 
 
 - Make sure to be on the _whitelisted JVT office IP address_ **before** SSH-ing into instance, see [here](https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1#SecurityGroups) on to view and / or update the _inbound_ Security Group rules
 
 - See [here](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html) on more information about _AWS Security Groups_
+
+#### 1 SSH-ing into server
 
 ```shell
 $ ssh iam-username@instance.ip.address
