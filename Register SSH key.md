@@ -52,7 +52,7 @@ https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1#Addresses:
 Finally you can SSH into instance:
 
 ```shell
-$ ssh iam-username@ip.address
+$ ssh username@ip.address
 ```
 
 When successfully ssh'd into server, continue with [Deploying to remote instructions](Remote%20deploying)
