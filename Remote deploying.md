@@ -28,7 +28,7 @@ If you already have an IAM user, with the mandatory configurations as described 
 #### 1 SSH-ing into server
 
 ```shell
-$ ssh iam-username@instance.ip.address
+$ ssh username@instance.ip.address
 ```
 
 - See [here](https://bitbucket.org/jvt/ocean-premium-frontend/wiki/Register%20SSH%20key#markdown-header-determine-ip-of-target-host) to find the IP address of the target host
