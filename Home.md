@@ -67,7 +67,7 @@ https://www.sonarlint.org/vscode/#vscode-connected-mode
 
 ##### Credentials
 
-- Ask Silvia / Steve
+- Ask Peter Verkooijen / Steve / Steven Gosseling
 
 ##### CI
 - [JVT CircleCI - Ocean Premium team access](https://circleci.com/bb/jvt/oceanpremium)
