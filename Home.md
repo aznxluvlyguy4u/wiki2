@@ -104,6 +104,17 @@ $ npm run start-dev
 ```
 
 Which will starts a node server on [http://localhost:3000](http://localhost:3000)
+
+
+## Additional configurations / relevant information
+
+- [Sign-up - current phase does not have this implementation](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Sign%20up%20endpoint%20payload%20formats)
+
+See the branch [feature/sign-up](https://bitbucket.org/oceanpremium/ocean-premium-frontend/branch/feature/signup) for the sign up functionality.
+
+**Again**: this current phase (phase 1) does not have this implementations, yet is was developed in Sprint 1, but not used!
+
+
 ### Remote deploying
 
 See [here](Remote%20deploying) for instructions on deploying
