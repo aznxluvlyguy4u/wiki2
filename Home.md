@@ -77,7 +77,7 @@ https://www.sonarlint.org/vscode/#vscode-connected-mode
 Make sure prerequisites are met, then clone the repo:
 
 ```shell
-$ git clone git@bitbucket.org:jvt/ocean-premium-frontend.git
+$ git clone git@bitbucket.org:oceanpremium/ocean-premium-frontend.git
 ```
 
 ### Environment variables
