@@ -54,7 +54,10 @@ You can find the IP address of the instance on the OP AWS under the [EC2 section
 $ sudo -i
 ```
 
-#### 2 Attach or create new Tmux session
+#### Attach or create new Tmux session
+
+#####  Find or create tmux session
+
 
 We use [tmux](https://en.wikipedia.org/wiki/Tmux) to support detachable SSH sessions to run long running jobs, like running the node server. 
 
@@ -62,7 +65,43 @@ We use [tmux](https://en.wikipedia.org/wiki/Tmux) to support detachable SSH sess
 
 - See [here](https://tmuxcheatsheet.com) for a tmux cheatsheet
 
-When attached or created a new tmux session, continue with below.
+
+First check if there already exists a tmux session:
+
+```shell
+$ tmux ls
+```
+
+#### Output
+
+In case of existing tmux sessions (for example called: node):
+
+```shell
+node: 1 windows (created Tue Apr 16 16:22:53 2019) [204x55]
+```
+
+In case of *no* tmux sessions:
+
+```shell
+no server running on /private/tmp/tmux-501/default
+```
+
+### Create a tmux session (if none exists)
+
+Assume you want to create a session named: _node_
+
+```shell
+$ tmux new -s node
+```
+This will create a new tmux session with the name: _node_ and you will automatically be attached to it.
+
+### Attach to tmux session
+
+Assume you want to attach to session named: _node_
+
+```shell
+$ tmux a -t node
+```
 
 ### 3 Navigate to the web app
 
