@@ -171,8 +171,8 @@ Which will starts a node server on [http://localhost:3000](http://localhost:3000
 
 **Click** the following button combination (do not copy paste, that won't work):
 
-```shell
-$ CTRL b d
+```
+CTRL b d
 ```
 
 #### Exit sudo session
