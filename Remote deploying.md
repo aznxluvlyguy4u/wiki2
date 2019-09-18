@@ -169,11 +169,7 @@ Which will starts a node server on [http://localhost:3000](http://localhost:3000
 
 #### 5 Detach from Tmux session
 
-**Click** the following button combination (do not copy paste, that won't work):
-
-```
-CTRL b d
-```
+**Click** the following button combination (do not copy paste, that won't work): `CTRL b d`
 
 #### Exit sudo session
 ```shell
