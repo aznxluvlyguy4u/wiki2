@@ -65,6 +65,7 @@ We use [tmux](https://en.wikipedia.org/wiki/Tmux) to support detachable SSH sess
 
 - See [here](https://tmuxcheatsheet.com) for a tmux cheatsheet
 
+- See [here](https://leimao.github.io/blog/Tmux-Tutorial/) for a Tmux tutorial
 
 First check if there already exists a tmux session:
 
