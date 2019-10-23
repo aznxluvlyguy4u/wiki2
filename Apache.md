@@ -139,6 +139,38 @@ Paste and fit changes to your needs, this example is configured for Ocean Premiu
 
 - Where _{SERVER_NAME}_ points to the DNS, that points to IP address of server
 
+
+#### Staging
+
+### With SSL
+
+Paste and fit changes to your needs, this example is configured for Ocean Premium - ***Production without SSL*** environment:
+
+
+```
+<VirtualHost *:80>
+    ServerAdmin admin@site.com
+    ServerName site.com
+    ServerAlias op-dev.jongensvantechniek.nl
+
+    ProxyRequests off
+
+    <Proxy *>
+        Order deny,allow
+        Allow from all
+    </Proxy>
+
+    <Location />
+        ProxyPass http://localhost:3000/
+        ProxyPassReverse http://localhost:3000/
+    </Location>
+
+    # Redirect ip address call to dns
+    RewriteCond %{HTTP_HOST} ^99\.80\.168\.39$
+    RewriteRule ^(.*)$ https://op-dev.jongensvantechniek.nl$1 [L,R=301]
+</VirtualHost>
+```
+
 Disable default apache config:
 
 ```shell
