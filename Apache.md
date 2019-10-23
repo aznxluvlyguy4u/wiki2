@@ -142,10 +142,11 @@ Paste and fit changes to your needs, this example is configured for Ocean Premiu
 
 #### Staging
 
-### With SSL
+### With SSL through Cloudflare
 
-Paste and fit changes to your needs, this example is configured for Ocean Premium - ***Production without SSL*** environment:
+- Via JVT Cloudflare make sure to register the DNS used (or fit to your needs): `op-dev.jongensvantechniek.nl`
 
+Paste and fit changes to your needs, this example is configured for Ocean Premium - ***Staging SSL through Cloudflare*** environment:
 
 ```
 <VirtualHost *:80>
