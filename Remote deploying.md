@@ -195,7 +195,7 @@ Now you are done deploying, either go to the staging or production environment t
 
 ### Production
 
-- http://rental.oceanpremium.com 
+- https://rental.oceanpremium.com 
 
 or
 
