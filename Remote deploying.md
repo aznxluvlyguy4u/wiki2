@@ -191,11 +191,14 @@ d
 
 or
 
-```
+
 - while CTRL button is pressed, press b
 - then release all keys 
 - then press d
-```
+
+*Hopefully you've successfully detached the tmux session, if not you could (not advised) restart the server,
+that will definitely detach the tmux session (but also kill the session) ;p*
+
 
 #### Exit sudo session
 ```shell
