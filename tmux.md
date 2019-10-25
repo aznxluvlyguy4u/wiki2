@@ -47,7 +47,7 @@ Hit ctrl, keep it pressed, and hit also b, then release all keys, and then hit d
 
 
 ```shell
-ctrl+b 
+ctrl b 
 d
 ```
 
