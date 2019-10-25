@@ -45,9 +45,12 @@ $ tmux a -t node
 
 Hit the key:
 
+Hit ctrl, keep it pressed, and hit also b, then release all keys, and then hit d
+
+
+
 ```shell
-ctrl+b daarna (los) 
-d
+ctrl+b d
 ```
 
 ### Kill a tmux session (if needed)
