@@ -43,8 +43,11 @@ $ tmux a -t node
 
 ### Detach from current tmux session
 
+Hit the key:
+
 ```shell
-$ ctrl b d
+ctrl+b daarna (los) 
+d
 ```
 
 ### Kill a tmux session (if needed)
