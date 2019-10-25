@@ -43,14 +43,12 @@ $ tmux a -t node
 
 ### Detach from current tmux session
 
-Hit the key:
-
 Hit ctrl, keep it pressed, and hit also b, then release all keys, and then hit d
 
 
-
 ```shell
-ctrl+b d
+ctrl+b 
+d
 ```
 
 ### Kill a tmux session (if needed)
