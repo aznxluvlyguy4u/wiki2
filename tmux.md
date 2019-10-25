@@ -49,7 +49,7 @@ $ tmux a -t node
 *
 
 ```shell
-$ ctrl b 
+CTRL b 
 d
 ```
 
