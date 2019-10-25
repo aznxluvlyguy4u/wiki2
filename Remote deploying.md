@@ -172,9 +172,9 @@ Which will starts a node server on [http://localhost:3000](http://localhost:3000
 
 **Click** the following button combination (do not copy paste, that won't work): 
 
-```
-Hit **CTRL**, *keep it pressed*, and hit also **b**, *then release all keys*, and then hit **d**
-```
+- Hit **CTRL**, *keep it pressed*, and hit also **b**, *then release all keys*, and then hit **d**
+
+or 
 
 ```shell
 CTRL b
@@ -182,10 +182,14 @@ and without CTRL
 d
 ```
 
+or
+
 ```
 CTRL + b
 d
 ```
+
+or
 
 ```
 - while CTRL button is pressed, press b
