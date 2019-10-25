@@ -180,6 +180,17 @@ and without CTRL
 d
 ```
 
+```
+CTRL + b
+d
+```
+
+```
+- while CTRL button is pressed, press b
+- then release all keys 
+- then press d
+```
+
 #### Exit sudo session
 ```shell
 $ exit
