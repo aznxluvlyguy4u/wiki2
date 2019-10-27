@@ -138,8 +138,10 @@ $ cd /var/www/op-prod.jongensvantechniek.nl
 
 ### 4 Deploy frontend
 
-- Make sure to set to **correct endpoint environment** (_dev_ / _prod_ / _staging_,
+- Make sure to set to **correct endpoint environment** (_dev_ / _prod_ / _staging_),
 see the [_utils/rest/requestConstants.js_](https://bitbucket.org/oceanpremium/ocean-premium-frontend/src/development/utils/rest/requestConstants.js) file.
+
+*Yes, the above is a **manual** setup as no time has been taken to implement dynamic variables reading, there for it is currently hardcoded. Advice, setup variables via, for example .env reading mechanism.*
 
 Pull the latest changes (determine if you are on the correct branch):
 
