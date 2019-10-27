@@ -138,7 +138,10 @@ $ cd /var/www/op-prod.jongensvantechniek.nl
 
 ### 4 Deploy frontend
 
-First, pull the latest changes (determine if you are on the correct branch):
+- Make sure to set to correct endpoint environment (_dev_ / _prod_ / _staging_',
+see the [_utils/rest/requestConstants.js_](https://bitbucket.org/oceanpremium/ocean-premium-frontend/src/development/utils/rest/requestConstants.js) file.
+
+Pull the latest changes (determine if you are on the correct branch):
 
 ```shell
 $ git pull
